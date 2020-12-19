@@ -1,0 +1,272 @@
+*,html,header, .main_body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav_body{
+    background-image: url("https://i1.wp.com/wismart.com.tr/wp-content/uploads/2019/04/home_3_news_3.jpg?fit=2000%2C1335&ssl=1");
+   
+    width: 100%;
+    height: 700px;
+    background-size: 100% 100%;
+    
+}
+.home{
+    margin-left: 80px;
+    margin-top: 43px;
+    font-weight: bold;
+    color: #16da16;
+}
+
+.about{
+    margin-left: 10px;
+    margin-top: 43px;
+    font-weight: bold;
+    color:white;
+   
+}
+
+.service{
+    margin-left: 30px;
+    margin-top: 43px;
+    font-weight: bold;
+    color:white;
+   
+}
+
+.blog{
+    margin-left: 200px;
+    margin-top: 43px;
+    font-weight: bold;
+    color: white;
+       
+    
+}
+.signUp{
+    margin-left: 60px;
+    margin-top: 31px;
+    background-color: #1def1d;
+    border: none;
+    height: 41px;
+    width: 154px;
+    color: white;
+    font-weight: bold;
+}
+
+.expo{
+    
+    margin-left: 322px;
+    margin-top: 43px;
+    font-weight: bold;
+    color: #c6ccc7;
+    font-size: xx-large;
+    
+}
+.navbar_list{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    
+}
+ul.navbar_list{
+    list-style-type: none;
+   
+}
+
+li::marker{
+    size: 0;
+}
+.home_a{
+    margin-right: 50px;
+
+}
+.navB{
+    
+margin-top: 130px;
+
+}
+#heading  {
+    margin-top: 251px;
+    margin-left: 79px;
+    font-size: 51px;
+    color: white;
+}
+#para{
+    margin-left: 79px;
+    color: white;
+    font-size: 20px;
+    margin-top: 17px;
+}
+#paraBtn{
+    margin-left: 79px;
+    background-color: #31b331;
+    height: 42px;
+    border-color: green;
+    width: 151px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: auto;
+    padding: 0
+    ;
+  }
+  .row{
+      display: flex;
+      flex-direction: row;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.card {
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+   
+   
+    text-align: center;
+    font-family: arial;
+    margin-left: 200px;
+    height: 300px;
+    width: 295px;
+    margin-top: 22px;
+}
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .cardH{
+    margin-top: 165px;
+    margin-left: 45px;
+    font-family: -webkit-pictograph;
+    color: #696363;
+  }
+  .cardh5{
+    margin-left: 45px;
+    font-family: -webkit-pictograph;
+    color: #868181;
+    margin-top: 18px;
+    font-family: -webkit-body;
+
+  }
+  .viewBtn{
+    margin-left: 79px;
+    background-color: #31b331;
+    height: 42px;
+    border-color: green;
+    width: 151px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+  }
+  .cardh4{
+    margin-left: -30px;
+    margin-top: 170px;
+    font-size: 20px;
+    color: #6f6d6d
+  }
+  .thidDiv{
+      display: flex;
+      flex-direction: row;
+  }
+img{
+    height: 198px;
+    width: 295px;
+    margin-bottom: 2px;
+}
+
+#paraBtn4{
+    margin-left: 0;
+    background-color: white;
+    height: 42px;
+    border-color: rgb(27, 243, 27);
+    
+    width: 151px;
+    color:  rgb(27, 243, 27);
+   
+    margin-top: 20px;
+}
+.h1men{
+    margin-top: 350px;
+    margin-left: 124px;
+    margin-right: 102px;
+    font-family: -webkit-pictograph;
+    color: #444141;
+}
+.threeRow{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: rgb(63, 62, 62);
+}
+.threeP{
+    color: rgb(146, 143, 143);
+}
+.lowerCard{
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    height: 210px;
+    width: 305x;
+    margin-top: 60px;
+    width: 306px;
+    margin-left: 59px;
+    border-radius: 10px;
+}
+#cardBack{
+        background-image: url("https://images.pexels.com/photos/1097930/pexels-photo-1097930.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+        height: 550px;
+        width: 80%;
+        background-size: 100% 100%;
+        margin-left:140px;
+        margin-top: 90px;
+        border-radius: 5px;
+
+
+}
+#lowerCardB{
+    box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: arial;
+    height: 210px;
+    width: 305x;
+    margin-top: 60px;
+    width: 306px;
+    margin-left: 59px;
+    border-radius: 10px;
+    z-index: -9999999;
+    background-color: blanchedalmond;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+
+}
+.btnView{
+    margin-left: 671px;
+    background-color: #ffffff;
+    height: 42px;
+    border-color: #18dc18;
+    width: 237px;
+    color: white;
+    /* border: none; */
+    margin-top: 20px;
+    /* border-radius: 10px; */
+    color: #1eef1e;
+}
+
+#many{
+   
+    margin-top: 13px;
+    color: #90908a;
+}
